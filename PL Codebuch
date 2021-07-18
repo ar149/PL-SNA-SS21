@@ -1,0 +1,75 @@
+Codebuch PL SNA
+erstellt von Alisa Rathke (ar149)
+
+## Inhalt
+- Edges.csv (Edgelist)
+- Nodes.csv (Nodelist)
+- Codebuch.md (Codierung der Datensätze)
+
+## Das Netzwerk ist ein *ungerichtetes two-mode Netzwerk*.
+
+# EDGE-Attribute
+
+**from**
+definiert den Sender in gerichteten Netzwerken. Entspricht ID in der Nodelist. Keine Sonderzeichen, nur ein Wort
+
+**to*
+definiert den Empfänger in ungerichteten Netzwerken. Entspricht ID in der Nodelist. Keine Sonderzeichen, etc. 
+
+# NODE-Attribute
+
+**id**  
+(eindeutige Codierung des Knoten)   
+Abkürzungen der Namen
+
+**name**
+Name oder Bezeichnung des Knotens
+
+**type**
+Art des Knotens
+0 = Person
+1 = Organisation wie Verein oder Land
+
+**birth**
+Geburtsjahr
+
+**age**
+Alter in passenden Abschnitten skaliert
+1 = 20 und jünger
+2 = 21-23
+3 = 24-26
+4 = 27-30
+5 = über 30
+
+**position**
+Spielposition auf dem Feld
+1 = Mittelblock
+2 = Zuspiel
+3 = Außenangriff
+4 = Diagonal
+5 = Libera
+
+**country**
+Heimatland
+1 = Deutschland
+2 = Niederlande
+3 = Bulgarien
+4 = Belgien
+5 = Polen
+6 = USA
+7 = Spanien
+8 = Finnland
+
+**height**
+Größe
+1 = 1-169
+2 = 170-179
+3 = 180-189
+4 = 190-199
+5 = über 200
+
+**jersey number**
+Trickotnummer
+
+
+
